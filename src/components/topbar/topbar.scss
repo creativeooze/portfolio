@@ -24,7 +24,7 @@
                 font-size: 30px;
                 font-weight: 700;
                 text-decoration: none;
-                color: inherit;
+                color: crimson;
                 margin-right: 40px;
                 font-family: 'Poppins', sans-serif;
             }
@@ -49,7 +49,7 @@
         .right {
 
             .hamburger {
-                width: 32px;
+                width: 30px;
                 height: 25px;
                 display: flex;
                 flex-direction: column;
@@ -70,12 +70,16 @@
     &.active {
         background-color: $mainColor;
         color: white;
+        overflow-y: hidden;
+        overflow-x: hidden;
 
         .hamburger {
             span {
                 &:first-child {
                     background-color: white;
                     transform: rotate(45deg);
+                    overflow-y: hidden;
+                    overflow-x: hidden;
                 }
 
                 &:nth-child(2) {
@@ -85,6 +89,8 @@
                 &:last-child {
                     background-color: white;
                     transform: rotate(-45deg);
+                    overflow-y: hidden;
+                    overflow-x: hidden;
                 }
             }
         }

@@ -4,6 +4,7 @@
 
     .left {
         flex: 0.5;
+        overflow-y: hidden;
 
         .imgContainer {
             width: 800px;
@@ -70,7 +71,7 @@
         a {
             position: absolute;
             bottom: 10px;
-            left: 40%;
+            left: 50%;
 
             img {
                 width: 30px;
