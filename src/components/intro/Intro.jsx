@@ -13,10 +13,10 @@ export default function Intro() {
             backSpeed: 60,
             showCursor: true,
             strings: [
+                'Java Developer',
+                'Python Developer',
                 'Salesforce Developer',
                 'React Js Developer',
-                'Java Developer',
-                'Python Developer'
             ]
         })
     }, [])
